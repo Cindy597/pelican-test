@@ -4,8 +4,8 @@
 
         <title>My super title</title>
         <meta charset="utf-8" />
-        <link href="http://cindy597.github.io/pelican-test/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Cindy Full Atom Feed" />
-        <link href="http://cindy597.github.io/pelican-test/feeds/python.atom.xml" type="application/atom+xml" rel="alternate" title="Cindy Categories Atom Feed" />
+        <link href="http://cindy597.github.io/pelican-test//feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Cindy Full Atom Feed" />
+        <link href="http://cindy597.github.io/pelican-test//feeds/python.atom.xml" type="application/atom+xml" rel="alternate" title="Cindy Categories Atom Feed" />
 
 
         <!-- Mobile viewport optimized: j.mp/bplateviewport -->
@@ -68,6 +68,18 @@
             <div class="entry-content">
               <p>This is the content of my super blog post.</p>
             </div><!-- /.entry-content -->
+            <div class="comments">
+              <h3>Comments</h3>
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                var disqus_identifier = "my-super-post.html";
+                (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = 'http://Cindy.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+            </div>
 
 
         </div><!-- /.eleven.columns -->
@@ -87,8 +99,8 @@
 
 <h4>Tags</h4>
 	<ul>
-	    <li class="tag-4"><a href="http://cindy597.github.io/pelican-test/tag/publishing.html">publishing</a></li>
 	    <li class="tag-4"><a href="http://cindy597.github.io/pelican-test/tag/pelican.html">pelican</a></li>
+	    <li class="tag-4"><a href="http://cindy597.github.io/pelican-test/tag/publishing.html">publishing</a></li>
 </ul>
 
 
@@ -140,6 +152,15 @@
     </div>
 
 
+<script type="text/javascript">
+    var disqus_shortname = 'Cindy';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
   <script src="http://cindy597.github.io/pelican-test/theme/js/libs/jquery-1.9.1.min.js"></script>
   <script src="http://cindy597.github.io/pelican-test/theme/js/libs/gumby.min.js"></script>
   <script src="http://cindy597.github.io/pelican-test/theme/js/plugins.js"></script>
